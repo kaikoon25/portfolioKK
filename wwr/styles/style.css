@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Walter+Turncoat&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -6,6 +8,7 @@ nav a {
     text-align: center;
     text-decoration: none;
     color: #d1e4e8;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -20,8 +23,23 @@ main section {
     height: 725px;
 }
 
+.home-title, .msg h2, main h2 {
+    font-family: "Walter Turncoat", sans-serif;
+}
+.home-title {
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+h2 {
+    margin: 0;
+}
+
 body {
     background-color: #d1e4e8;
+    font-family: "EB Garamond", Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: #086582;
@@ -34,6 +52,10 @@ nav a:hover {
     background-color: #e39123;
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #086582;
@@ -45,10 +67,14 @@ nav a:hover {
 .msg {
     background-color: #086582;
     color: #d1e4e8;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer{
     background-color: #086582;
     color: #d1e4e8;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 .logo, .icon {
@@ -68,6 +94,30 @@ footer p a:hover {
 footer p a {
     text-decoration: none;
     color: #d1e4e8;
+}
+
+.msg p {
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+#logo_link {
+    padding-top: 5px;
+}
+.icon {
+    padding-top: 10px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #086582;
+}
+main section img {
+    box-sizing: border-box;
 }
 
 
